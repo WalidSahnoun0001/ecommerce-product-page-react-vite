@@ -130,7 +130,7 @@ export default Hero
 
 const Section = styled.section`
     width: 70%;
-    margin: 50px auto;
+    margin: 70px auto;
 
 @media (max-width: 575.98px) {
     margin: 0 auto;
