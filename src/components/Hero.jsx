@@ -129,7 +129,7 @@ function Hero({setProducts, count, setCount, opened, setOpened}) {
 export default Hero
 
 const Section = styled.section`
-    width: 80%;
+    width: 70%;
     margin: 50px auto;
 
 @media (max-width: 575.98px) {
