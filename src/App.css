@@ -76,3 +76,47 @@ figure div.img-hover:hover::before {
     }
     
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-ul {
+        display: none !important;
+    }
+    .opened-menu {
+        transform: translateX(0) !important;
+        display: block !important;
+    }
+    ul.opened-menu::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 100%;
+        width: 55%;
+        height: 100%;
+        background-color: rgba(0, 0, 0,0.5);
+    }
+    figure div {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-ul {
+        display: none !important;
+    }
+    .opened-menu {
+        transform: translateX(0) !important;
+        display: block !important;
+    }
+    ul.opened-menu::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 100%;
+        width: 55%;
+        height: 100%;
+        background-color: rgba(0, 0, 0,0.5);
+    }
+    figure div {
+        display: none;
+    }
+}

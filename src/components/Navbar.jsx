@@ -58,6 +58,16 @@ const PhoneMenuIc = styled.div`
         margin-right: 15px;
         margin-top: 5px;
     }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        display: block;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        display: block;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
 `
 const Nav = styled.nav`
     display: flex;

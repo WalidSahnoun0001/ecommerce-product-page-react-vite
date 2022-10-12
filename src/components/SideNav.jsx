@@ -38,6 +38,28 @@ const SideUl = styled.ul`
 
         background-color: #fff;
     }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        display: block;
+        position: fixed;
+        height: 100%;
+        width: 65%;
+        top: 0;
+
+        transform: translateX(-400px);
+
+        background-color: #fff;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        display: block;
+        position: fixed;
+        height: 100%;
+        width: 65%;
+        top: 0;
+
+        transform: translateX(-535px);
+
+        background-color: #fff;
+    }
 `
 const SideLi = styled.li`
     margin: 25px 40px;

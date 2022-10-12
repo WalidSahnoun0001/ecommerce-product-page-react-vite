@@ -139,6 +139,14 @@ const Section = styled.section`
     margin: 0 auto;
     width: 100%;
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    margin: 0 auto;
+    width: 100%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    margin: 0 auto;
+    width: 100%;
+}
 `
 
 const Product = styled.div`
@@ -148,6 +156,12 @@ const Product = styled.div`
 
     
 @media (max-width: 575.98px) { 
+    display: block;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    display: block;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
     display: block;
 }
 `
@@ -169,6 +183,18 @@ const PrevImg = styled.img`
     border-radius: 0;
     object-fit: cover;
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    object-fit: cover;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    object-fit: cover;
+}
 `
 const ThumbImg = styled.img`
     width: 85px;
@@ -179,6 +205,12 @@ const ThumbImg = styled.img`
 
     
 @media (max-width: 575.98px) {
+    display: none;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    display: none;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
     display: none;
 }
 `
@@ -196,6 +228,12 @@ const H4 = styled.h4`
 @media (max-width: 575.98px) {
     margin-top: 10px;
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    margin-top: 10px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    margin-top: 10px;
+}
 `
 const H1 = styled.h1`
     color: hsl(0, 0%, 0%);
@@ -205,6 +243,16 @@ const H1 = styled.h1`
 @media (max-width: 575.98px) {
     font-size: 30px;
     width: 100%;    
+    margin: 10px 0;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 30px;
+    width: 100%;
+    margin: 10px 0;
+}
+@media (min-width: 768px) and (max-width: 991.98px)  {
+    font-size: 30px;
+    width: 100%;
     margin: 10px 0;
 }
 `
@@ -218,6 +266,14 @@ const P = styled.p`
     width: 100%;    
     font-size: 14px;
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    width: 100%;
+    font-size: 15px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    width: 100%;
+    font-size: 16px;
+}
 `
 const PriceDetails = styled.div`
     display: flex;
@@ -225,6 +281,10 @@ const PriceDetails = styled.div`
     width: 120px;
 
 @media (max-width: 575.98px) {
+    margin: 10px 0;
+    width: 100%;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
     margin: 10px 0;
     width: 100%;
 }
@@ -249,6 +309,9 @@ const Prbefore = styled.span`
 @media (max-width: 575.98px) {
     margin-left: 110px;
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    margin-left: 110px;
+}
 `
 const Discount = styled.span`
     color: hsl(26, 100%, 55%);
@@ -261,6 +324,12 @@ const Discount = styled.span`
 const Controls = styled.div`
     
 @media (max-width: 575.98px) {
+    display: block;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    display: block;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
     display: block;
 }
 `
@@ -279,6 +348,12 @@ const ControlL = styled.div`
 @media (max-width: 575.98px) {
     width: calc(100% / 3);
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    width: calc(100% / 3);
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    width: calc(100% / 3);
+}
 `
 const ControlR = styled.div`
     background-color: hsl(223, 64%, 98%);
@@ -295,6 +370,12 @@ const ControlR = styled.div`
 @media (max-width: 575.98px) {
     width: calc(100% / 3);
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    width: calc(100% / 3);
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    width: calc(100% / 3);
+}
 `
 const Quantity = styled.div`
     display: flex;
@@ -303,6 +384,12 @@ const Quantity = styled.div`
     margin-bottom: 15px;
 
 @media (max-width: 575.98px) {
+    width: 100%;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    width: 100%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
     width: 100%;
 }
 `
@@ -314,6 +401,12 @@ const Count = styled.div`
     line-height: 2.8;
     font-weight: 700;
 @media (max-width: 575.98px) {
+    width: calc(100% / 3);
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    width: calc(100% / 3);
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
     width: calc(100% / 3);
 }
 `
@@ -337,6 +430,14 @@ const AddBtn = styled.button`
     width: 100%;
     margin: 0 auto;
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    width: 100%;
+    margin: 0 auto;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    width: 100%;
+    margin: 0 auto;
+}
 `
 
 const PrevImage = styled.img`
@@ -352,6 +453,28 @@ const PrevImage = styled.img`
     top: 240px;
     cursor: pointer;
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 12px 15px;
+    z-index: 9;
+    left: 10px;
+    top: 240px;
+    cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 12px 15px;
+    z-index: 9;
+    left: 50px;
+    top: 33%;
+    cursor: pointer;
+}
 `
 const NextImage = styled.img`
     display: none;
@@ -364,6 +487,28 @@ const NextImage = styled.img`
     z-index: 9;
     right: 10px;
     top: 240px;
+    cursor: pointer;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 12px 15px;
+    z-index: 9;
+    right: 10px;
+    top: 240px;
+    cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 12px 15px;
+    z-index: 9;
+    right: 15px;
+    top: 33.5%;
     cursor: pointer;
 }
 `
