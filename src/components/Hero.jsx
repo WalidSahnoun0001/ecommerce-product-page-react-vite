@@ -38,7 +38,7 @@ function Hero({setProducts, count, setCount, opened, setOpened}) {
 
     let [productImg, setProductImg] = useState(Product1)
 
-    const change = (target) => {
+    const change = (target, index) => {
         let replace = target.firstChild.src.replace('-thumbnail', '')
         
         setProductImg(replace)
@@ -50,6 +50,8 @@ function Hero({setProducts, count, setCount, opened, setOpened}) {
 
         target.classList.add('img-active')
         target.classList.remove('img-hover')
+
+        setIndex(index)
     } 
 
     const imgs = [
@@ -85,10 +87,10 @@ function Hero({setProducts, count, setCount, opened, setOpened}) {
                         <NextImage src={Next} onClick={nextImg} alt="" />
                     </figure>
                     <Figure2>
-                        <div className="img-active" onClick={(e)=> change(e.target)}><ThumbImg src={ProductThumb1} alt="" /></div>
-                        <div className="img-hover" onClick={(e)=> change(e.target)}><ThumbImg src={ProductThumb2} alt="" /></div>
-                        <div className="img-hover" onClick={(e)=> change(e.target)}><ThumbImg src={ProductThumb3} alt="" /></div>
-                        <div className="img-hover" onClick={(e)=> change(e.target)}><ThumbImg src={ProductThumb4} alt="" /></div>
+                        <div className="img-active" onClick={(e)=> change(e.target, 0)}><ThumbImg src={ProductThumb1} alt="" /></div>
+                        <div className="img-hover" onClick={(e)=> change(e.target, 1)}><ThumbImg src={ProductThumb2} alt="" /></div>
+                        <div className="img-hover" onClick={(e)=> change(e.target, 2)}><ThumbImg src={ProductThumb3} alt="" /></div>
+                        <div className="img-hover" onClick={(e)=> change(e.target, 3)}><ThumbImg src={ProductThumb4} alt="" /></div>
                     </Figure2>
                 </div>
                 <Details>
@@ -132,7 +134,7 @@ function Hero({setProducts, count, setCount, opened, setOpened}) {
 export default Hero
 
 const Section = styled.section`
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
     place-content: center;

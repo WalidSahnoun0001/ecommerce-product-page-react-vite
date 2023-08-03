@@ -1,3 +1,6 @@
+.App {
+    position: relative;
+}
 header nav ul li a {
     color: hsl(219, 9%, 45%);
     font-size: 15px;
@@ -67,10 +70,10 @@ figure div.img-hover:hover::before {
         content: '';
         top: 0;
         left: 100%;
-        width: 55%;
+        width: 100vw;
         height: 100%;
         background-color: rgba(0, 0, 0,0.5);
-    }
+    } 
     figure div {
         display: none;
     }
@@ -90,7 +93,7 @@ figure div.img-hover:hover::before {
         content: '';
         top: 0;
         left: 100%;
-        width: 55%;
+        width: 100vw;
         height: 100%;
         background-color: rgba(0, 0, 0,0.5);
     }
@@ -112,7 +115,7 @@ figure div.img-hover:hover::before {
         content: '';
         top: 0;
         left: 100%;
-        width: 55%;
+        width: 100vw;
         height: 100%;
         background-color: rgba(0, 0, 0,0.5);
     }

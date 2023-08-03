@@ -31,7 +31,6 @@ const SideUl = styled.ul`
         display: block;
         position: fixed;
         height: 100%;
-        width: 65%;
         top: 0;
 
         transform: translateX(-260px);
@@ -42,7 +41,6 @@ const SideUl = styled.ul`
         display: block;
         position: fixed;
         height: 100%;
-        width: 65%;
         top: 0;
 
         transform: translateX(-400px);
@@ -53,7 +51,6 @@ const SideUl = styled.ul`
         display: block;
         position: fixed;
         height: 100%;
-        width: 65%;
         top: 0;
 
         transform: translateX(-535px);

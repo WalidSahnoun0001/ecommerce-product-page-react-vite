@@ -3,7 +3,6 @@ import Profile from '../assets/image-avatar.png'
 import Logo from '../assets/logo.svg'
 import CartIcon from '../assets/icon-cart.svg'
 import MenuIc from '../assets/icon-menu.svg'
-import { useState } from 'react'
 
 function Product({state, setState, products, openedMenu, setOpenedMenu}) {
 
